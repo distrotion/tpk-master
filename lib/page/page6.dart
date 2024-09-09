@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'P6PROGRESS/P06PROGRESSMAIN.dart';
+
 class Page6 extends StatelessWidget {
   const Page6({Key? key}) : super(key: key);
 
@@ -14,12 +16,6 @@ class Page6Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        height: 100,
-        width: 100,
-        color: Colors.green,
-      ),
-    );
+    return P06PROGRESSMAIN();
   }
 }

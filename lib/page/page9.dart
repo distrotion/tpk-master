@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'P09PROGRESS/P09PROGRESSMAIN.dart';
+
 class Page9 extends StatelessWidget {
   const Page9({Key? key}) : super(key: key);
 
@@ -14,12 +16,6 @@ class Page9Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        height: 100,
-        width: 100,
-        color: Colors.green,
-      ),
-    );
+    return P09PROGRESSMAIN();
   }
 }
